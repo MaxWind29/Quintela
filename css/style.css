@@ -249,7 +249,18 @@ body {
    width: 416px;
    padding: 40px 45px 45px;
    border: 2px solid rgba(24, 64, 167, 0.5);
+   transition: all .3s;
 }
+
+.about__wrapper-item:hover,
+.about__content-numb:hover{
+   background-color: var(--bg-color);
+   color: var(--accent-font-color);
+}
+
+/* .about__item-title:hover{
+   color: var(--accent-font-color);
+} */
 
 .about__item-title {
    max-width: 208px;
@@ -303,9 +314,14 @@ body {
    color: var(--main-font-color);
 }
 
+
 .contact__contnet-text{
    max-width: 416px;
    margin-bottom: 22px;
+}
+
+.last-text{
+   margin-bottom: 40px;
 }
 
 .contact__content-box{
@@ -320,4 +336,11 @@ body {
    color: var(--accent-font-color);
    font-family: var(--font-proxima-semibold);
    font-weight: 600;
+   border: 1px solid var(--bg-color);
+   transition: all .3s;
+}
+
+.contact__box-link:hover{
+   color: var(--bg-color);
+   background-color: var(--accent-font-color);
 }
