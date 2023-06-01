@@ -247,26 +247,31 @@ body {
 
 .about__wrapper-item {
    width: 416px;
-   padding: 40px 45px 45px;
    border: 2px solid rgba(24, 64, 167, 0.5);
    transition: all .3s;
 }
 
-.about__wrapper-item:hover,
-.about__content-numb:hover {
+.about__wrapper-item:hover{
    background-color: var(--bg-color);
    color: var(--accent-font-color);
 }
 
+.about__item-content:hover{
+   color: var(--accent-font-color);
+}
+
+/* .about__content-numb:hover{
+   color: var(--accent-font-color);
+} */
 
 .about__item-title {
-   max-width: 208px;
    font-family: var(--font-proxima-bold);
    font-weight: 700;
    font-size: 24px;
    line-height: 140%;
    color: var(--main-font-color);
-   margin-bottom: 20px;
+   padding: 40px 20px 42px;
+   transition: all .3s;
 }
 
 .about__item-title:hover {
@@ -276,6 +281,11 @@ body {
 .about__item-content {
    display: flex;
    justify-content: space-between;
+   padding: 0px 0px 45px 20px;
+}
+
+.about__item-content:hover{
+   color: var(--accent-font-color);
 }
 
 .about__content-item:not(:last-child) {
@@ -294,6 +304,11 @@ body {
    color: var(--bg-color);
    opacity: 0.5;
    transform: translateY(-32%);
+   transition: all .3s;
+}
+
+.about__content-numb:hover{
+   color: var(--accent-font-color);
 }
 
 .contact {
