@@ -3,6 +3,6 @@ $('.header__main-slider').slick({
    dots: true,
    arrows: false,
    infinite: true,
-   autoplay: true,
+   // autoplay: true,
    autoplaySpeed: 3000
 });

@@ -48,6 +48,11 @@ button {
    padding: 0;
 }
 
+/* img{
+   display: block;
+   width: 100%;
+} */
+
 ul,
 li {
    list-style: none;
@@ -144,6 +149,7 @@ body {
 }
 
 .header__top-button {
+   cursor: pointer;
    background-color: transparent;
    border: none;
    color: var(--accent-font-color);
